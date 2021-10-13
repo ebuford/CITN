@@ -12,24 +12,24 @@ You can use Get-Command to see what commands you can get.
 
 `Get-Command get-*`
 
-Get-Command get-* -Module ActiveDirectory
+`Get-Command get-* -Module ActiveDirectory`
 
 ### 2. You can count Objects
 
 The command below will get all the Processes on your computer. 
 
-Get-Process
+`Get-Process`
 
 But if you want to count the Processes you simply surround it with Parentheses like this and view the count.
 
-(Get-Process).count 
+`(Get-Process).count` 
 
 ### 3. You can grab powershell on another computer
 
 There are some tricks to getting remote powershell to work right - this isn't a tutorial on Remoting... but if you have fairly new OSs on machines,
 you can connect to another Machine using the Enter-PSsession command:
 
-Enter-PSSession DC1
+`Enter-PSSession DC1`
 
 
 ## Learning Powerhell 
