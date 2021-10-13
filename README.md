@@ -14,6 +14,12 @@ You can use Get-Command to see what commands you can get.
 
 `Get-Command get-* -Module ActiveDirectory`
 
+`Get-Help`
+
+If you get an error when you try to get help then you should update help and this is the way to do it:
+
+`Update-Help`
+
 ### 2. You can count Objects
 
 The command below will get all the Processes on your computer. 
