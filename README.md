@@ -38,7 +38,7 @@ you can connect to another Machine using the Enter-PSsession command:
 `Enter-PSSession DC1`
 
 
-## Learning Powerhell 
+## Learning Powershell 
 
 - [Best Tutorial](https://channel9.msdn.com/Series/GetStartedPowerShell3/01)
 
