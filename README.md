@@ -12,7 +12,7 @@ You can use Get-Command to see what commands you can get.
 
 **Get-Command get-***
 
-Get-Command get-* -Module ActiveDirectory 
+**Get-Command get-* -Module ActiveDirectory** 
 
 ### 2. You can count Objects
 
