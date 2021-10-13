@@ -2,13 +2,13 @@
 
 Welcome Church IT Network folks!
 
-Below you should find some links to get you started with Powershell. 
+Below you should find some links to get you started with Powershell.
 
 # 3 Things you should should know!
 
 ### 1. If you only use Get commands you can't do any damage!
 
-You can use Get-Command to see what commands you can get. 
+You can use Get-Command to see what commands you can get.
 
 `Get-Command get-*`
 
@@ -22,13 +22,13 @@ If you get an error when you try to get help then you should update help and thi
 
 ### 2. You can count Objects
 
-The command below will get all the Processes on your computer. 
+The command below will get all the Processes on your computer.
 
 `Get-Process`
 
 But if you want to count the Processes you simply surround it with Parentheses like this and view the count.
 
-`(Get-Process).count` 
+`(Get-Process).count`
 
 ### 3. You can grab powershell on another computer
 
@@ -38,7 +38,7 @@ you can connect to another Machine using the Enter-PSsession command:
 `Enter-PSSession DC1`
 
 
-## Learning Powerhell 
+## Learning Powershell 
 
 - [Best Tutorial](https://channel9.msdn.com/Series/GetStartedPowerShell3/01)
 
